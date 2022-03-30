@@ -1,11 +1,11 @@
-import logo from ".././logo.svg";
-import "./App.css";
+import logo from "../logo.svg";
+import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Nav, Navbar } from "react-bootstrap";
 
-function Navbar() {
+function NavbarComponent() {
   return (
-    <div className="App">
+    <div className="Navbar">
       <Navbar bg="dark" variant="dark" fixed="buttom" expand="sm">
         <Navbar.Brand>
           <img src={logo} alt="Logo" width="40px" height="40px" />
@@ -25,4 +25,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavbarComponent;
