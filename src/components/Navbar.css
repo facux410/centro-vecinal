@@ -6,3 +6,9 @@
   padding: 12px;
   height: 3000px;
 }
+.margin-logo img{
+  margin-right: 20px;
+}
+body{
+  background-color: black;
+}
